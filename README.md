@@ -9,9 +9,9 @@ Download the current Windows installer from the
 [latest GitHub Release](https://github.com/Inventable/IT_Releases/releases/latest).
 The installer is self-contained and does not require a separate .NET runtime.
 
-The initial `1.0.0` installer is unsigned and intended for controlled internal
-demonstration. Windows will display an unknown-publisher warning until release
-signing is introduced.
+The current `1.0.1` installer is unsigned and intended for controlled testing.
+Windows will display an unknown-publisher warning until release signing is
+introduced.
 
 ## Update catalogue
 
