@@ -1,0 +1,42 @@
+name: Validate release catalogue
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate stable catalogue invariants
+        shell: python
+        run: |
+          import json
+          import pathlib
+          import re
+
+          manifest = json.loads(pathlib.Path("channels/stable.json").read_text(encoding="utf-8"))
+          assert manifest["schemaVersion"] == 1
+          assert manifest["channel"] == "stable"
+          assert re.fullmatch(r"\d+\.\d+\.\d+", manifest["suiteVersion"])
+          assert manifest["application"]["url"].startswith("https://")
+          assert re.fullmatch(r"[0-9a-fA-F]{40}", manifest["application"]["sourceCommit"])
+          assert re.fullmatch(r"[0-9a-fA-F]{64}", manifest["application"]["sha256"])
+          for release in manifest["firmware"]:
+              assert release["imageType"] == "offset-production"
+              assert release["processor"] == "PIC18F26K80"
+              assert release["url"].startswith("https://")
+              assert re.fullmatch(r"[0-9a-fA-F]{40}", release["sourceCommit"])
+              assert re.fullmatch(r"[0-9a-fA-F]{64}", release["sha256"])
+      - name: Reject committed release binaries
+        shell: bash
+        run: |
+          if find . -type f -size +5M -not -path './.git/*' | grep -q .; then
+            echo "Large files must be GitHub Release assets, not Git commits."
+            exit 1
+          fi
