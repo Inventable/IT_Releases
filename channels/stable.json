@@ -1,12 +1,12 @@
-﻿{
+{
     "schemaVersion":  1,
     "channel":  "stable",
     "suiteVersion":  "1.0.5",
-    "generatedUtc":  "2026-07-31T19:27:14.4373464+00:00",
+    "generatedUtc":  "2026-07-31T19:30:49.0527068+00:00",
     "application":  {
                         "version":  "1.0.5",
                         "sourceRepository":  "Inventable/PC_Gauge_Interface",
-                        "sourceCommit":  "c53f1ec9c8f0155c35f2188dbfd5d4d753a62e7d",
+                        "sourceCommit":  "5abfc439d06e34035b1d2f970c2fd9315afd8231",
                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.5/Northstar-Gauge-Interface-Setup-1.0.5.exe",
                         "sha256":  "A763EB8E82EC7EF51C1AAC131F45186F493A9450A070921B591506EEBA3F03F0"
                     },
