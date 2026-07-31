@@ -1,28 +1,66 @@
-{
-  "schemaVersion": 1,
-  "channel": "stable",
-  "suiteVersion": "1.0.1",
-  "generatedUtc": "2026-07-31T14:08:17.9265598Z",
-  "application": {
-    "version": "1.0.1",
-    "sourceRepository": "Inventable/PC_Gauge_Interface",
-    "sourceCommit": "0634a96119df1a9d5b04995b1dfefc2b35f45fbf",
-    "url": "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.1/Northstar-Gauge-Interface-Setup-1.0.1.exe",
-    "sha256": "5C91C71D1361BC10224938898FD2D4FAEEE801F097BC13405B57DC24D5A9E541"
-  },
-  "firmware": [
-    {
-      "deviceType": 100230,
-      "supportedPcbs": [100161, 100184, 100228],
-      "version": "3.0",
-      "imageType": "offset-production",
-      "processor": "PIC18F26K80",
-      "minimumBootloader": "1.3",
-      "sourceRepository": "Inventable/PIC_Memory_Gauge",
-      "sourceCommit": "96ae6f8e2f33d5f397d371571a8425707bb91167",
-      "url": "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.1/Memory_Gauge_Universal_Offset_V3.0.hex",
-      "sha256": "C30CB4BC49106AE93045137CC07C6510A8E99F7162D8ABD6F6B0E3D7012F3A79",
-      "releaseNotes": "Initial universal V3 release with mirrored storage, live sensor diagnostics, and crash-capsule download."
-    }
-  ]
+﻿{
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "suiteVersion":  "1.0.5",
+    "generatedUtc":  "2026-07-31T19:27:14.4373464+00:00",
+    "application":  {
+                        "version":  "1.0.5",
+                        "sourceRepository":  "Inventable/PC_Gauge_Interface",
+                        "sourceCommit":  "c53f1ec9c8f0155c35f2188dbfd5d4d753a62e7d",
+                        "url":  "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.5/Northstar-Gauge-Interface-Setup-1.0.5.exe",
+                        "sha256":  "A763EB8E82EC7EF51C1AAC131F45186F493A9450A070921B591506EEBA3F03F0"
+                    },
+    "firmware":  [
+                     {
+                         "deviceType":  100160,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.0",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "sourceRepository":  "Inventable/PIC_Memory_Gauge",
+                         "sourceCommit":  "96ae6f8e2f33d5f397d371571a8425707bb91167",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.5/Northstar-Memory-Gauge-Universal-Offset-3.0.hex",
+                         "sha256":  "C30CB4BC49106AE93045137CC07C6510A8E99F7162D8ABD6F6B0E3D7012F3A79",
+                         "releaseNotes":  "Northstar Gauge Interface 1.0.5 operator fixes with unified memory-gauge firmware availability."
+                     },
+                     {
+                         "deviceType":  100196,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.0",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "sourceRepository":  "Inventable/PIC_Memory_Gauge",
+                         "sourceCommit":  "96ae6f8e2f33d5f397d371571a8425707bb91167",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.5/Northstar-Memory-Gauge-Universal-Offset-3.0.hex",
+                         "sha256":  "C30CB4BC49106AE93045137CC07C6510A8E99F7162D8ABD6F6B0E3D7012F3A79",
+                         "releaseNotes":  "Northstar Gauge Interface 1.0.5 operator fixes with unified memory-gauge firmware availability."
+                     },
+                     {
+                         "deviceType":  100230,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.0",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "sourceRepository":  "Inventable/PIC_Memory_Gauge",
+                         "sourceCommit":  "96ae6f8e2f33d5f397d371571a8425707bb91167",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/suite-v1.0.5/Northstar-Memory-Gauge-Universal-Offset-3.0.hex",
+                         "sha256":  "C30CB4BC49106AE93045137CC07C6510A8E99F7162D8ABD6F6B0E3D7012F3A79",
+                         "releaseNotes":  "Northstar Gauge Interface 1.0.5 operator fixes with unified memory-gauge firmware availability."
+                     }
+                 ]
 }

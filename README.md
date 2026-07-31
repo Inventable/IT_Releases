@@ -1,27 +1,26 @@
-# Inventable Technology Releases
+# Northstar Gauge Releases
 
-Public binary downloads for Inventable Technology software and approved device
-firmware. Product source code remains in its corresponding source repository.
+Public, binary-only downloads for Northstar Gauge Interface and approved gauge
+firmware. Source code lives in separate repositories.
 
-## Northstar Gauge Interface
+## Download the Windows application
 
-Download the current Windows installer from the
-[latest GitHub Release](https://github.com/Inventable/IT_Releases/releases/latest).
-The installer is self-contained and does not require a separate .NET runtime.
+Open the latest GitHub Release and download
+`Northstar-Gauge-Interface-Setup-<version>.exe`. The installer includes the
+.NET runtime and does not require a separate framework installation.
 
-The current `1.0.1` installer is unsigned and intended for controlled testing.
-Windows will display an unknown-publisher warning until release signing is
-introduced.
+## Firmware catalog
 
-## Update catalogue
+The desktop application reads `channels/stable.json`, selects the newest
+stable entry matching the connected gauge device type or compatible memory-gauge
+family, downloads the referenced Offset-production HEX, verifies its SHA-256,
+and validates the image layout before programming is enabled. The unified
+memory-gauge image is published for device types `100160`, `100196`, and
+`100230`.
 
-`channels/stable.json` is the machine-readable release catalogue used by the
-Gauge Interface. Large installer and firmware files are immutable GitHub
-Release assets. Publish every asset before changing the stable catalogue.
-
-Firmware entries are added only after the private firmware repository has
-produced a clean, tested universal Offset-production release. Combined,
-StandAlone, unified, and programmer images are never client update assets.
+Published release files are immutable: correcting an artifact requires a new
+version and a new directory. `SHA256SUMS.txt` records hashes for human/offline
+verification.
 
 ## Repository layout
 
@@ -33,5 +32,11 @@ schemas/
   release-manifest.schema.json
 .github/
   workflows/
-    validate-release.yml
+    finalize-release.yml
 ```
+
+The first public repository should be named `Inventable/IT_Releases`
+so the application default catalog URL works without configuration. Enable
+GitHub release immutability and protect the `main` branch before routine use.
+
+Installer and HEX binaries belong in GitHub Release assets, not Git history.
