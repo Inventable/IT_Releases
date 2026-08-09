@@ -5,22 +5,30 @@ firmware. Source code lives in separate repositories.
 
 ## Download the Windows application
 
-Open the latest GitHub Release and download
-`Northstar-Gauge-Interface-Setup-<version>.exe`. The installer includes the
-.NET runtime and does not require a separate framework installation.
+For normal customer deployment, open the latest stable GitHub Release and
+download `Northstar-Gauge-Interface-Setup-<version>.exe`. The installer includes
+the .NET runtime and does not require a separate framework installation.
 
-## Firmware catalog
+Engineering beta releases are published as GitHub prereleases. Their assets are
+listed by `channels/beta/current.json`; the engineering-beta application reads
+that catalogue so a complete beta suite can be evaluated without changing the
+stable channel.
 
-The desktop application reads `channels/stable.json`, selects the newest
-stable entry matching the connected gauge device type or compatible memory-gauge
-family, downloads the referenced Offset-production HEX, verifies its SHA-256,
-and validates the image layout before programming is enabled. The unified
-memory-gauge image is published for device types `100160`, `100196`, and
-`100230`.
+## Firmware catalogues
+
+The production application reads `channels/stable.json`, selects the newest
+stable entry matching the connected gauge device type or compatible
+memory-gauge family, downloads the referenced Offset-production HEX, verifies
+its SHA-256, and validates the image layout before programming is enabled.
+
+The engineering-beta application reads `channels/beta/current.json`. A beta
+manifest identifies one immutable suite, including the Windows application,
+production Offset firmware and supporting engineering assets. Publishing a beta
+does not modify `channels/stable.json`.
 
 Published release files are immutable: correcting an artifact requires a new
-version and a new directory. `SHA256SUMS.txt` records hashes for human/offline
-verification.
+version and new GitHub Release assets. `SHA256SUMS.txt` records hashes for
+human and offline verification.
 
 ## Repository layout
 
@@ -28,15 +36,18 @@ verification.
 README.md
 channels/
   stable.json
+  beta/
+    current.json
 schemas/
   release-manifest.schema.json
+  beta-release-manifest.schema.json
+eng/
+  Test-ReleaseRepository.ps1
 .github/
   workflows/
-    finalize-release.yml
+    validate-release.yml
 ```
 
-The first public repository should be named `Inventable/IT_Releases`
-so the application default catalog URL works without configuration. Enable
-GitHub release immutability and protect the `main` branch before routine use.
-
-Installer and HEX binaries belong in GitHub Release assets, not Git history.
+The application catalogues use the public repository
+`Inventable/IT_Releases`. Installer and HEX binaries belong in GitHub Release
+assets, not Git history.
