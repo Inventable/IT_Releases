@@ -1,0 +1,117 @@
+{
+    "schemaVersion":  2,
+    "channel":  "beta",
+    "suiteVersion":  "2026.8.9-beta",
+    "generatedUtc":  "2026-08-09T22:11:10.6223453+00:00",
+    "source":  {
+                   "repository":  "Inventable/Gauge_Product_Family",
+                   "commit":  "f3338ee54705064ed6124015f59a4b0709ba42a1",
+                   "dirty":  false
+               },
+    "applications":  [
+                         {
+                             "platform":  "windows-x64-installer",
+                             "version":  "1.5.3-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Gauge-Application_1.5.3-beta_win-x64_Setup.exe",
+                             "sha256":  "DB970ACF9E8895AFA8A129ACC5A92D22BBA4DEF4B5E0D85D265110D36B9B28FA",
+                             "releaseNotes":  "Gauge Interface 1.5.3-beta adds V4 startup and per-page engineering diagnostics, paired REC and RAW export, corrected memory and clock timing presentation, and refined operator settings and file review."
+                         },
+                         {
+                             "platform":  "windows-x64-portable",
+                             "version":  "1.5.3-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Gauge-Application_1.5.3-beta_win-x64.zip",
+                             "sha256":  "35428385782B3F6CF1A6B7DA90337948D435035FEEB389C52C124131B4CB0BDE",
+                             "releaseNotes":  "Gauge Interface 1.5.3-beta adds V4 startup and per-page engineering diagnostics, paired REC and RAW export, corrected memory and clock timing presentation, and refined operator settings and file review."
+                         }
+                     ],
+    "firmware":  [
+                     {
+                         "deviceType":  100160,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.14",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Memory-Gauge_V3.14_O.hex",
+                         "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
+                         "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
+                     },
+                     {
+                         "deviceType":  100196,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.14",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Memory-Gauge_V3.14_O.hex",
+                         "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
+                         "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
+                     },
+                     {
+                         "deviceType":  100230,
+                         "supportedPcbs":  [
+                                               100161,
+                                               100184,
+                                               100228
+                                           ],
+                         "version":  "3.14",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Memory-Gauge_V3.14_O.hex",
+                         "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
+                         "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
+                     },
+                     {
+                         "deviceType":  100200,
+                         "supportedPcbs":  [
+                                               100198
+                                           ],
+                         "version":  "2.4",
+                         "imageType":  "offset-production",
+                         "processor":  "PIC18F26K80",
+                         "minimumBootloader":  "1.2",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Acoustic-Gauge_V2.4_O.hex",
+                         "sha256":  "FF37B22FF102B4DA200293B792AB36FF318EC00A3CDD6BD91ACBDC1DEBB14AA1",
+                         "releaseNotes":  "Engineering Acoustic Gauge 2.3 with full-capacity A/B field-test scheduling, three startup pulses, alternating five-minute RX/TX phases, and committed TX event telemetry."
+                     }
+                 ],
+    "additionalAssets":  [
+                             {
+                                 "audience":  "internal",
+                                 "imageType":  "combined-production",
+                                 "version":  "3.14",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Memory-Gauge_V3.14_C.hex",
+                                 "sha256":  "EBEB32305E844F3C70D249106EF73FA49AF4D8FCB0AB2AE3AA0DF37C7193F9E8"
+                             },
+                             {
+                                 "audience":  "engineering",
+                                 "kind":  "build-manifest",
+                                 "version":  "2026.8.9-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Gauge-Product-Family_2026.8.9-beta_build-manifest.json",
+                                 "sha256":  "91561AB93A4CE5CC6084043DF1E66D8BA8ADE9CC0951C160508D8BBE3A8706F9"
+                             },
+                             {
+                                 "audience":  "internal",
+                                 "imageType":  "acoustic-combined-production",
+                                 "version":  "2.4",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Acoustic-Gauge_V2.4_C.hex",
+                                 "sha256":  "D66160D8EF6E8EF654B31A62DA6810545CF693023B51728CB5DA260D498C0362"
+                             },
+                             {
+                                 "audience":  "engineering",
+                                 "kind":  "acoustic-build-manifest",
+                                 "version":  "2026.8.9-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.9-beta/Acoustic-Gauge_2026.8.9-beta_build-manifest.json",
+                                 "sha256":  "2E433D4A1168E729A2D1EBDADF102FA02FAE37A31337C5E29250F52092CBEF17"
+                             }
+                         ]
+}
