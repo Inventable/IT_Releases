@@ -45,7 +45,7 @@ if (Test-Path -LiteralPath $betaPath -PathType Leaf) {
     $beta = Get-Content -LiteralPath $betaPath -Raw | ConvertFrom-Json
     Require ($beta.schemaVersion -eq 2) "Beta catalogue must use schema 2."
     Require ($beta.channel -eq 'beta') "Beta catalogue channel must be beta."
-    Require ($beta.suiteVersion -match '^\d{4}\.\d+\.\d+-beta$') "Beta suite version is invalid."
+    Require ($beta.suiteVersion -match '^\d{4}\.\d+\.\d+-beta(?:\.\d+)?$') "Beta suite version is invalid."
     Require ($beta.source.repository -eq 'Inventable/Gauge_Product_Family') "Beta source repository is invalid."
     Test-Commit ([string]$beta.source.commit) "Beta source commit"
     Require (!$beta.source.dirty) "Beta source must be clean."
