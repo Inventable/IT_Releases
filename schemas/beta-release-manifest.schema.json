@@ -19,7 +19,7 @@
     "channel": { "const": "beta" },
     "suiteVersion": {
       "type": "string",
-      "pattern": "^\\d{4}\\.\\d+\\.\\d+-beta$"
+      "pattern": "^\\d{4}\\.\\d+\\.\\d+-beta(?:\\.\\d+)?$"
     },
     "generatedUtc": { "type": "string", "format": "date-time" },
     "source": {

@@ -30,6 +30,9 @@ Published release files are immutable: correcting an artifact requires a new
 version and new GitHub Release assets. `SHA256SUMS.txt` records hashes for
 human and offline verification.
 
+When more than one beta is published on the same day, the suite version adds a
+numeric prerelease revision, for example `2026.8.12-beta.1`.
+
 ## Repository layout
 
 ```text
