@@ -1,27 +1,27 @@
 {
     "schemaVersion":  2,
     "channel":  "beta",
-    "suiteVersion":  "2026.8.12-beta",
-    "generatedUtc":  "2026-08-12T08:30:59.9528305+00:00",
+    "suiteVersion":  "2026.8.12-beta.1",
+    "generatedUtc":  "2026-08-12T17:40:21.6782642+00:00",
     "source":  {
                    "repository":  "Inventable/Gauge_Product_Family",
-                   "commit":  "e4f05b4bb3926bd91cf0645a36062e70fa6b13c8",
+                   "commit":  "3334c7a041ae89411ba5208881dd1aea3802afd7",
                    "dirty":  false
                },
     "applications":  [
                          {
                              "platform":  "windows-x64-installer",
-                             "version":  "1.5.5-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Gauge-Application_1.5.5-beta_win-x64_Setup.exe",
-                             "sha256":  "8851FDDD4D06D2779E796FC89A448250CC1A0289E5426D0C7EDA1A76981D7457",
-                             "releaseNotes":  "Gauge Interface 1.5.5-beta accepts supported legacy gauge identify replies, authorizes work by device type rather than serial identity, provides reliable Acoustic A/B and transmitter-only preparation/download workflows, and installs at one stable taskbar-safe path."
+                             "version":  "1.5.6-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Gauge-Application_1.5.6-beta_win-x64_Setup.exe",
+                             "sha256":  "FE7EB7CEABFE094A009A62BD7CA255B20C4D8832537F281EE29EC9E3230F8227",
+                             "releaseNotes":  "Gauge Interface 1.5.6-beta restores the revised gauge file table, drag-and-drop recording import, offline REC and RAW review, RAW detail charts, and diagnostics while retaining legacy gauge identification and Acoustic A/B workflows."
                          },
                          {
                              "platform":  "windows-x64-portable",
-                             "version":  "1.5.5-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Gauge-Application_1.5.5-beta_win-x64.zip",
-                             "sha256":  "BB651349C804490362257C91CEA50D3939555020995A6EFF46F7A360BC7C8480",
-                             "releaseNotes":  "Gauge Interface 1.5.5-beta accepts supported legacy gauge identify replies, authorizes work by device type rather than serial identity, provides reliable Acoustic A/B and transmitter-only preparation/download workflows, and installs at one stable taskbar-safe path."
+                             "version":  "1.5.6-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Gauge-Application_1.5.6-beta_win-x64.zip",
+                             "sha256":  "50B0051DFB9BBEBA82C1CE6C6422A00E87D95922990E5F3CEC94E6D1D49493D0",
+                             "releaseNotes":  "Gauge Interface 1.5.6-beta restores the revised gauge file table, drag-and-drop recording import, offline REC and RAW review, RAW detail charts, and diagnostics while retaining legacy gauge identification and Acoustic A/B workflows."
                          }
                      ],
     "firmware":  [
@@ -36,7 +36,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Memory-Gauge_V3.14_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Memory-Gauge_V3.14_O.hex",
                          "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
                          "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
                      },
@@ -51,7 +51,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Memory-Gauge_V3.14_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Memory-Gauge_V3.14_O.hex",
                          "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
                          "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
                      },
@@ -66,7 +66,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Memory-Gauge_V3.14_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Memory-Gauge_V3.14_O.hex",
                          "sha256":  "E67280BFA552941A71EF608B8FF344370CACEB944358C8A0A23E3E8FF128F56F",
                          "releaseNotes":  "Memory Gauge 3.14 adds autonomous V4 startup evidence, battery-conditioning and sensor-start recovery, per-page core-voltage and memory timing, and corrected clock-comparison capture."
                      },
@@ -79,7 +79,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Acoustic-Gauge_V2.6_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Acoustic-Gauge_V2.6_O.hex",
                          "sha256":  "1FE9CCF42DE9908BFADFEA9AFF57E2F3CB7713B670501722EE5F41025231B2CD",
                          "releaseNotes":  "Acoustic Gauge 2.6 corrects A/B transmit-phase timing and provides physically verified five-minute capture, deterministic TX telemetry, startup health pulses, and the memory-free transmitter fallback."
                      }
@@ -89,29 +89,29 @@
                                  "audience":  "internal",
                                  "imageType":  "combined-production",
                                  "version":  "3.14",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Memory-Gauge_V3.14_C.hex",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Memory-Gauge_V3.14_C.hex",
                                  "sha256":  "EBEB32305E844F3C70D249106EF73FA49AF4D8FCB0AB2AE3AA0DF37C7193F9E8"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "build-manifest",
-                                 "version":  "2026.8.12-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Gauge-Product-Family_2026.8.12-beta_build-manifest.json",
-                                 "sha256":  "F5147409190360E39BE4E9A97FE25A13EC90D935BADBCAD0549C16FD578C6D27"
+                                 "version":  "2026.8.12-beta.1",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Gauge-Product-Family_2026.8.12-beta.1_build-manifest.json",
+                                 "sha256":  "C06E1D77FFB2474D01C8B1EEC59A5A47593A8B73055E1708C7094DABC3A70BD9"
                              },
                              {
                                  "audience":  "internal",
                                  "imageType":  "acoustic-combined-production",
                                  "version":  "2.6",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Acoustic-Gauge_V2.6_C.hex",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Acoustic-Gauge_V2.6_C.hex",
                                  "sha256":  "C288CF90A70E460CD7A1FAA74A411214D88F17AE99D49096CA636B83C282A49E"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "acoustic-build-manifest",
-                                 "version":  "2026.8.12-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta/Acoustic-Gauge_2026.8.12-beta_build-manifest.json",
-                                 "sha256":  "3D80DD24F74652C6BF36D06D2F75FCB51EA9DEE8485C2D25060EEB7BA5E652B5"
+                                 "version":  "2026.8.12-beta.1",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.8.12-beta.1/Acoustic-Gauge_2026.8.12-beta.1_build-manifest.json",
+                                 "sha256":  "F4FA29DA3C39D909B5D330E9D7C5F60AB73C0156B28F687662E83AEC2EECC248"
                              }
                          ]
 }
