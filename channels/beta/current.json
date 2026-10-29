@@ -1,27 +1,27 @@
 {
     "schemaVersion":  2,
     "channel":  "beta",
-    "suiteVersion":  "2026.10.29-beta",
-    "generatedUtc":  "2026-10-29T11:30:25.3022649+00:00",
+    "suiteVersion":  "2026.10.30-beta",
+    "generatedUtc":  "2026-10-29T12:45:17.3060693+00:00",
     "source":  {
                    "repository":  "Inventable/Gauge_Product_Family",
-                   "commit":  "c6fdd05bca44329ecac8faa5598511e3d203a360",
+                   "commit":  "37234334938769630e0bfe7c2dda85b354174027",
                    "dirty":  false
                },
     "applications":  [
                          {
                              "platform":  "windows-x64-installer",
-                             "version":  "1.5.28-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Gauge-Application_1.5.28-beta_win-x64_Setup.exe",
-                             "sha256":  "B5A0CEA4DAE1CC102EF1ABFFACEC25E560305C0FA3A8F98F15B155537D864571",
-                             "releaseNotes":  "Gauge Interface 1.5.28-beta prepares the 20-minute Acoustic live-decoding test at slow and fast rates, retaining raw recordings and exporting decoded results. Install this red-icon application first, update Acoustic firmware to 2.20, and re-prepare both gauges. UNQUALIFIED engineering beta for Northstar hardware evaluation."
+                             "version":  "1.5.29-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Gauge-Application_1.5.29-beta_win-x64_Setup.exe",
+                             "sha256":  "ED06C1750DC6368BA0BC133E2F2CAF01E3FDA4B6269B182FE974D660C204F1AB",
+                             "releaseNotes":  "Gauge Interface 1.5.29-beta restores the bounded firmware dialog and a verified Done action. Retains Acoustic plan 5 and TX-only preparation. Firmware is unchanged from 2026.10.29-beta; this PC update does not require gauge reprogramming. Red-icon UNQUALIFIED engineering beta; operator acceptance remains pending."
                          },
                          {
                              "platform":  "windows-x64-portable",
-                             "version":  "1.5.28-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Gauge-Application_1.5.28-beta_win-x64.zip",
-                             "sha256":  "20FED2617924EE8327B56C796455F5B08A5C9C3D2C8CFF406E71D0364D4C3C8E",
-                             "releaseNotes":  "Gauge Interface 1.5.28-beta prepares the 20-minute Acoustic live-decoding test at slow and fast rates, retaining raw recordings and exporting decoded results. Install this red-icon application first, update Acoustic firmware to 2.20, and re-prepare both gauges. UNQUALIFIED engineering beta for Northstar hardware evaluation."
+                             "version":  "1.5.29-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Gauge-Application_1.5.29-beta_win-x64.zip",
+                             "sha256":  "881B038EE1C9CDE433583567E1075DFAD16A0C398513ACB7F34D506179DDE5DB",
+                             "releaseNotes":  "Gauge Interface 1.5.29-beta restores the bounded firmware dialog and a verified Done action. Retains Acoustic plan 5 and TX-only preparation. Firmware is unchanged from 2026.10.29-beta; this PC update does not require gauge reprogramming. Red-icon UNQUALIFIED engineering beta; operator acceptance remains pending."
                          }
                      ],
     "firmware":  [
@@ -36,7 +36,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -51,7 +51,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -66,7 +66,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -79,9 +79,9 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Acoustic-Gauge_V2.20_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Acoustic-Gauge_V2.20_O.hex",
                          "sha256":  "90D53784FB1B13104676B616D6955F248D3B0A1F020910C1C11532D26D9B29DB",
-                         "releaseNotes":  "Acoustic Gauge 2.20 is an UNQUALIFIED engineering beta. Plan 5 separates full-quality raw recording from sequential slow/fast live decoding. Each portion receives three slow and three fast matching fixed-data packets. Retains the five-minute battery stagger, four 300-second RX/TX turns, long delays and memory-free transmitter-only operation. Install red Gauge Interface 1.5.28-beta, update both gauges and prepare a fresh plan-5 test. Older plans remain downloadable but cannot be mixed with plan 5. Automated tests passed; physical timing, overruns and field performance remain unqualified."
+                         "releaseNotes":  "Acoustic Gauge 2.20 is an UNQUALIFIED engineering beta. Plan 5 separates full-quality raw recording from sequential slow/fast live decoding. Each portion receives three slow and three fast matching fixed-data packets. Retains the five-minute battery stagger, four 300-second RX/TX turns, long delays and memory-free transmitter-only operation. Windows 1.5.29-beta restores the bounded firmware dialog and verified Done state. Firmware bytes are unchanged from suite 2026.10.29-beta; updating the PC alone requires no gauge reprogramming. Older plans remain downloadable but cannot be mixed with plan 5. Automated tests passed; physical timing, overruns and field performance remain unqualified."
                      }
                  ],
     "additionalAssets":  [
@@ -89,22 +89,22 @@
                                  "audience":  "internal",
                                  "imageType":  "combined-production",
                                  "version":  "3.22",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Memory-Gauge_V3.22_C.hex",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Memory-Gauge_V3.22_C.hex",
                                  "sha256":  "6D2E0C215CB7A544D8F494142B479DD6A0941E0F2C87868C12D683AA56E38CE5"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "build-manifest",
-                                 "version":  "2026.10.29-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Gauge-Product-Family_2026.10.29-beta_build-manifest.json",
-                                 "sha256":  "795F292B2A44405A8F8B140C7ED55A5A15B22866DCDEC766838B0D5046F0A4BE"
+                                 "version":  "2026.10.30-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Gauge-Product-Family_2026.10.30-beta_build-manifest.json",
+                                 "sha256":  "931BA0D3972101C89A5A127C027BC5796346D8D2F19D37C9E89364FBC0FACE72"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "acoustic-build-manifest",
-                                 "version":  "2026.10.29-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.29-beta/Acoustic-Gauge_2026.10.29-beta_build-manifest.json",
-                                 "sha256":  "0311C8220964A954132EADD566D061F5F1F3F757ACC082DB2BE31A7603E7CEB0"
+                                 "version":  "2026.10.30-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.10.30-beta/Acoustic-Gauge_2026.10.30-beta_build-manifest.json",
+                                 "sha256":  "F05F0978E7CD091E5A34FEE0906AF5238E589025C8EEE61FDC0F0B06F33BF195"
                              }
                          ]
 }
