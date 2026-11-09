@@ -1,27 +1,27 @@
 {
     "schemaVersion":  2,
     "channel":  "beta",
-    "suiteVersion":  "2026.11.9-beta",
-    "generatedUtc":  "2026-11-08T23:51:40.0358864+00:00",
+    "suiteVersion":  "2026.11.10-beta",
+    "generatedUtc":  "2026-11-09T20:12:05.0403090+00:00",
     "source":  {
                    "repository":  "Inventable/Gauge_Product_Family",
-                   "commit":  "61dc77592355ac903ff7bc6b6c7bfd9cd787edb7",
+                   "commit":  "08b71e1b426a9fe6235592ed58d5300511a0b007",
                    "dirty":  false
                },
     "applications":  [
                          {
                              "platform":  "windows-x64-installer",
-                             "version":  "1.7.11-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Gauge-Application_1.7.11-beta_win-x64_Setup.exe",
-                             "sha256":  "CFBE110FC160A797B30BAE7997AA1C0A1FA76004C7D340B6894B83F720C53F7E",
-                             "releaseNotes":  "Gauge Interface 1.7.11-beta adds functional Acoustic preparation and Upper/Lower surface readout, graphs, settings and session logs. Retains historical trial downloads and Memory Gauge support. Use Acoustic 3.11 for functional trials. Red-icon UNQUALIFIED Canada test beta; known packet losses remain."
+                             "version":  "1.7.12-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Gauge-Application_1.7.12-beta_win-x64_Setup.exe",
+                             "sha256":  "49335BC20F9563C10F861FA63172F256C22856D3A570920EEF2C447EB06467AF",
+                             "releaseNotes":  "Gauge Interface 1.7.12-beta adds functional Acoustic preparation and Upper/Lower surface readout, graphs, settings and session logs. Retains historical trial downloads and Memory Gauge support. Use Acoustic 3.11 for functional trials. Red-icon UNQUALIFIED Canada test beta; known packet losses remain."
                          },
                          {
                              "platform":  "windows-x64-portable",
-                             "version":  "1.7.11-beta",
-                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Gauge-Application_1.7.11-beta_win-x64.zip",
-                             "sha256":  "E3DD730661012ED4BA00CC0AB207094D0ABE766568F41C189AF9F6B3D9854B4A",
-                             "releaseNotes":  "Gauge Interface 1.7.11-beta adds functional Acoustic preparation and Upper/Lower surface readout, graphs, settings and session logs. Retains historical trial downloads and Memory Gauge support. Use Acoustic 3.11 for functional trials. Red-icon UNQUALIFIED Canada test beta; known packet losses remain."
+                             "version":  "1.7.12-beta",
+                             "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Gauge-Application_1.7.12-beta_win-x64.zip",
+                             "sha256":  "F8D44AFDB02D79D95957E414351F4E486BB0A4A862DE020EDA9C23B429986BBB",
+                             "releaseNotes":  "Gauge Interface 1.7.12-beta adds functional Acoustic preparation and Upper/Lower surface readout, graphs, settings and session logs. Retains historical trial downloads and Memory Gauge support. Use Acoustic 3.11 for functional trials. Red-icon UNQUALIFIED Canada test beta; known packet losses remain."
                          }
                      ],
     "firmware":  [
@@ -36,7 +36,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -51,7 +51,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -66,7 +66,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Memory-Gauge_V3.22_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Memory-Gauge_V3.22_O.hex",
                          "sha256":  "530876C4A13E04FF3F93C56325A82618AAF06492A80962E908F7C9494B5BFF68",
                          "releaseNotes":  "Memory Gauge 3.22 is the V4.1 production-freeze candidate with hardened recording and startup diagnostics. Single-device smoke and 36-hour battery recording passed; broader production qualification remains open."
                      },
@@ -79,7 +79,7 @@
                          "imageType":  "offset-production",
                          "processor":  "PIC18F26K80",
                          "minimumBootloader":  "1.2",
-                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Acoustic-Gauge_V3.11_O.hex",
+                         "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Acoustic-Gauge_V3.11_O.hex",
                          "sha256":  "CF8BC01700EE54FD899247171DE3B2D6C9B1EEC13D54552132E9494640B6D844",
                          "releaseNotes":  "UNQUALIFIED Canada test firmware 3.11. Functional recording requester/responder and UART bridge; raw/calculated P\u0026T, Fast/Slow rates, sequential relays and full acoustic diagnostics. Standalone trial: 4/7 exchanges, intact P\u0026T/acoustic files on both gauges. Threshold/reflection packet losses remain. Noise initialization unchanged. Use matched rates and retain both files for diagnosis."
                      }
@@ -89,22 +89,22 @@
                                  "audience":  "internal",
                                  "imageType":  "combined-production",
                                  "version":  "3.22",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Memory-Gauge_V3.22_C.hex",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Memory-Gauge_V3.22_C.hex",
                                  "sha256":  "6D2E0C215CB7A544D8F494142B479DD6A0941E0F2C87868C12D683AA56E38CE5"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "build-manifest",
-                                 "version":  "2026.11.9-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Gauge-Product-Family_2026.11.9-beta_build-manifest.json",
+                                 "version":  "2026.11.10-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Gauge-Product-Family_2026.11.10-beta_build-manifest.json",
                                  "sha256":  "931BA0D3972101C89A5A127C027BC5796346D8D2F19D37C9E89364FBC0FACE72"
                              },
                              {
                                  "audience":  "engineering",
                                  "kind":  "acoustic-build-manifest",
-                                 "version":  "2026.11.9-beta",
-                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.9-beta/Acoustic-Gauge_2026.11.9-beta_build-manifest.json",
-                                 "sha256":  "0BF748387F9F5445C16DB2B9CABD58B0217466EF1EB7D409022F7D55A81C3BC1"
+                                 "version":  "2026.11.10-beta",
+                                 "url":  "https://github.com/Inventable/IT_Releases/releases/download/v2026.11.10-beta/Acoustic-Gauge_2026.11.10-beta_build-manifest.json",
+                                 "sha256":  "D5D459A8899BECE006EA1B9D8F608AD62B8F34CFC44698FF65D78CDCA57504B0"
                              }
                          ]
 }
